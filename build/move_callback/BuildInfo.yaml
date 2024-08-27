@@ -1,0 +1,32 @@
+---
+compiled_package_info:
+  package_name: move_callback
+  address_alias_instantiation:
+    jarjar_ai_oracle: aa448583fb40bc6a25e2ca7c817d5e0f7c3ce95175d369289c42bc1d86caab68
+    move_callback: "0000000000000000000000000000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+  source_digest: 30F5C8C438F9C6487E100931BFE1093D336FC825D8840F8686B0A20285C59BF6
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    json_errors: false
+    additional_named_addresses: {}
+    lint_flag:
+      no_lint: false
+      lint: false
+dependencies:
+  - MoveStdlib
+  - Sui
+  - jarjar_ai_oracle
